@@ -1,0 +1,22 @@
+Metadata-Version: 2.2
+Name: kaf-act
+Version: 0.1.0
+Summary: KAF Activation with Random Fourier Features
+Home-page: https://github.com/kolmogorovArnoldFourierNetwork/kaf_act
+Author: kolmogorovArnoldFourierNetwork
+Author-email: 1957804226@qq.com
+License: MIT
+Keywords: activation-function,neural-network,deep-learning,pytorch
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: torch>=1.10.0
+Provides-Extra: test
+Requires-Dist: pytest>=6.0.0; extra == "test"
+
+# kaf_act
+PyTorch implementation of a learnable activation function combining base activation and Random Fourier Features.
