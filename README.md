@@ -28,7 +28,14 @@ model = nn.Sequential(
     nn.Linear(256, 10)
 )
 ```
-
+## RFFActivation Parameters
+| Parameter               | Default      | Description                          |
+|-------------------------|--------------|--------------------------------------|
+| `num_grids`             | 9            | Number of RFF grid points           |
+| `dropout`               | 0.0          | Dropout probability for RFF features|
+| `activation_expectation`| 1.64         | Rff initial variance factor         |
+| `use_layernorm`         | False        | Enable LayerNorm before RFF         |
+| `base_activation`       | F.gelu       | Base activation function            |
 
 ## Requirements 📋
 - Python >= 3.7
